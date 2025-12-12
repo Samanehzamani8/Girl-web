@@ -30,12 +30,15 @@ main{
     flex-direction: column;
 }
 
+.menu{
+    display: none;
+}
+
 .header1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 243px;
+    justify-content: space-between;
     font-size: 20px;
     padding: 24px 112px;
 }
@@ -80,6 +83,12 @@ main{
     line-height: 56px;
     font-size: 48px;
     margin-top: 80px;
+    gap :12px;
+}
+
+.text23{
+    display: flex;
+    gap: 16px;
 }
 
 .text1{
@@ -99,6 +108,10 @@ main{
     justify-content: center;
     margin-bottom: 60px;
     padding: 60px 112px;
+}
+
+.Girl{
+    display: none;
 }
 
 .main2{
@@ -211,6 +224,10 @@ main{
     font-weight: bold;
 }
 
+.skillphone{
+    display: none;
+}
+
 .header4{
     display: flex;
     flex-direction: column;
@@ -218,7 +235,6 @@ main{
     justify-content: center;
     background-color: black;
     color: white;
-    gap: 20px;
     padding: 80px 60px;
     
 }
@@ -226,7 +242,6 @@ main{
 .text5{
     font-size: 48px;
     line-height: 56px;
-    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -244,7 +259,18 @@ main{
     justify-content: center;
     gap: 28px;
     border: 1px solid #71717A;
-    width: 1068px;
+    width: 1168px;
+    border-radius: 10px;
+    padding: 30px 24px;
+}
+
+.tab8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+    border: 1px solid #71717A;
+    width: 1168px;
     border-radius: 10px;
     padding: 30px 24px;
 }
@@ -269,7 +295,7 @@ main{
     flex-direction: column;
     justify-content: center;
     gap: 28px;
-    width: 1068px;
+    width: 1168px;
     border: 1px solid #71717A;
     background-color: #27272A;
     border: none;
@@ -288,6 +314,8 @@ main{
 }
 
 .text9{
+    width: 1120px;
+    height: 72px;
     font-size: 16px;
     line-height: 24px;
     color: #D4D4D8;
@@ -322,6 +350,18 @@ main{
     color: #71717A;
 }
 
+.text29{
+    font-size: 16px;
+    line-height: 24px;
+    color: #71717A;
+}
+
+.text30{
+    font-size: 16px;
+    line-height: 24px;
+    color: #71717A;
+}
+
 .header6{
     display: flex;
     flex-direction: column;
@@ -340,10 +380,6 @@ main{
     padding: 20px 0;
 }
 
-.header6 img{
-    width: auto;
-}
-
 .main6{
     display: flex;
     flex-direction: row;
@@ -351,6 +387,10 @@ main{
     align-items: center;
     gap: 104px;
     padding: 20px 112px;
+}
+
+.imgmain1{
+    display: none;
 }
 
 .text11{
@@ -455,7 +495,7 @@ main{
 }
 
 input{
-    width: 445px;
+    width: 460px;
     color: #000000;
     padding: 18px 24px;
     border-radius: 4px;
@@ -484,10 +524,23 @@ input{
     font-weight: bolder;
 }
 
+.text26{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
 .tab6{
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
+}
+
+.tab7{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 
 .tab6 button{
@@ -519,6 +572,12 @@ input{
     font-weight: bold;
 }
 
+.text27{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .foot{
     background-color: #000000;
     padding: 12px 112px;
@@ -541,4 +600,355 @@ input{
 .logo h5{
     font-size: 20px;
     line-height: 24px;
+}
+
+@media ((min-width:375px) and (max-width: 385px)) {
+
+main{
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: none;
+}
+
+.menu{
+    display: flex;
+}
+
+.button{
+    display: none;
+}
+
+.header1{
+    padding: 0;
+    gap: 167.09px;
+}
+
+.header2{
+    padding: 40px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Girl{
+    display: flex;
+    width: 332px;
+}
+
+.Girl1{
+    display: none;
+}
+
+.text{
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.text24{
+    width: 343px;
+    height: 168px;
+}
+
+.img1{
+    padding: 14px;
+}
+
+.img2{
+    padding: 14px;
+}
+
+.header3{
+    padding: 40px 16px;
+
+}
+
+.skill{
+    display: none;
+}
+
+.skillphone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.radif3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.pro{
+    width: 161.5px;
+    height: 160px;
+}
+
+.pro2{
+    width: 161.5px;
+    height: 160px;
+}
+
+.skillphone span{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.header4{
+    padding: 40px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text3{
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.text5{
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.main4{
+    gap:20px;
+    padding: 0;
+    padding-top: 40px;
+}
+
+.tab{
+    width: 343px;
+    padding:0;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 175px;
+}
+
+.tab8{
+    width: 343px;
+    padding:0;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 128px;
+}
+
+.head1{
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    gap: 30px;
+}
+
+.text28{
+    display: flex;
+}
+
+.text6{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.tab3{
+    width: 343px;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 175px;
+    align-items: center;
+}
+
+.tab2{
+    align-items: center;
+    padding-left: 24px;
+}
+
+.header5{
+    padding: 40px 16px;
+    gap: 0;
+}
+
+.text9{
+    font-size: 16px;
+    line-height: 24px;
+    width: 295px;
+}
+
+.head1 b{
+    width: 233px;
+    height: 48px;
+}
+
+.header5{
+    padding: 40px 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Girl2{
+    width: 320.32px;
+    height: 366px;
+}
+
+.main5{
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.text8{
+    width: 343px;
+}
+
+.text29{
+    width: 343px;
+}
+
+.text30{
+    width: 343px;
+}
+
+.header6{
+    padding: 40px 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main6{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 28px;
+    width: 343px;
+}
+
+.imgmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18.76px;
+    width: 343px;
+    height: 397.73px;
+    overflow: hidden;
+}
+
+.imgmain1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18.76px;
+    width: 343px;
+    height: 397.73px;
+    overflow: hidden;
+}
+
+.imgmain2{
+    display: none;
+}
+
+.text10{
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.text12{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text13{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text25{
+    width: 343px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+.header7{
+    padding: 40px 16px;
+    display: flex;
+    gap: 40px;
+}
+
+
+.main7{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.tab4{
+    width: 303px;
+    height: 366px;
+}
+
+.tab5{
+    width: 303px;
+    height: 366px;
+}
+
+.header8{
+    flex-direction: column;
+    gap: 40px;
+}
+
+.input{
+    width: 343px;
+}
+
+.tab6{
+    flex-direction: column;
+    align-items: start;
+}
+
+.tab7{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.text18{
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.text19{
+    -webkit-text-stroke: 1.5px black;
+}
+
+.text26{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.text27{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.text21{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.foot{
+    padding: 20px 16px;
+}
+
+.text22{
+    font-size: 12px;
+    line-height: 20px;
+}
+
 }
