@@ -1,22 +1,8 @@
-
-@font-face {
-    font-family: "Sora", sans-serif;
-    src: url("./Sora/static/Sora-Bold.ttf");
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: "Sora", sans-serif;
-    src: url("./Sora/static/Sora-SemiBold.ttf");
-    font-weight: 600;
-}
-
 @font-face {
     font-family: "Sora", sans-serif;
     src: url("./Sora/static/Sora-Regular.ttf");
     font-weight: 400;
 }
-
 
 body{
     margin: 0;
@@ -490,14 +476,17 @@ main{
 .header8{
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
     gap: 108px;
     padding: 60px 112px;
 }
 
 input{
-    width: 460px;
+    width: 105%;
     color: #000000;
-    padding: 18px 24px;
+    padding: 18px 0px;
+    padding-left: 24px;
     border-radius: 4px;
 }
 
@@ -557,6 +546,7 @@ input{
 }
 
 .input2{
+    width: 105%;
     height: 140px;
 }
 
@@ -626,6 +616,7 @@ main{
 }
 
 .header2{
+    padding: 0;
     padding: 40px 16px;
     display: flex;
     flex-direction: column;
@@ -635,7 +626,7 @@ main{
 
 .Girl{
     display: flex;
-    width: 332px;
+    width: 100%;
 }
 
 .Girl1{
@@ -661,6 +652,7 @@ main{
 }
 
 .header3{
+    padding: 0;
     padding: 40px 16px;
 
 }
@@ -683,13 +675,21 @@ main{
 }
 
 .pro{
-    width: 161.5px;
-    height: 160px;
+    width: 100%;
+    height: 100%;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .pro2{
-    width: 161.5px;
-    height: 160px;
+    width: 100%;
+    height: 100%;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .skillphone span{
@@ -699,6 +699,7 @@ main{
 }
 
 .header4{
+    padding: 0;
     padding: 40px 16px;
     display: flex;
     align-items: center;
@@ -722,7 +723,7 @@ main{
 }
 
 .tab{
-    width: 343px;
+    width: 100%;
     padding:0;
     align-items: center;
     padding-top: 30px;
@@ -730,7 +731,7 @@ main{
 }
 
 .tab8{
-    width: 343px;
+    width: 100%;
     padding:0;
     align-items: center;
     padding-top: 30px;
@@ -746,6 +747,7 @@ main{
 
 .text28{
     display: flex;
+    margin-right: auto;
 }
 
 .text6{
@@ -754,19 +756,18 @@ main{
 }
 
 .tab3{
-    width: 343px;
-    padding: 0;
-    padding-top: 30px;
+    width: 86.5%;
+    padding: 30px 24px;
     padding-bottom: 175px;
     align-items: center;
 }
 
 .tab2{
     align-items: center;
-    padding-left: 24px;
 }
 
 .header5{
+    padding: 0;
     padding: 40px 16px;
     gap: 0;
 }
@@ -782,7 +783,13 @@ main{
     height: 48px;
 }
 
+.head1 span{
+    display: flex;
+    margin-right: auto;
+}
+
 .header5{
+    padding: 0;
     padding: 40px 16px;
     flex-direction: column;
     align-items: center;
@@ -812,6 +819,7 @@ main{
 }
 
 .header6{
+    padding: 0;
     padding: 40px 16px;
     align-items: center;
     justify-content: center;
@@ -873,6 +881,7 @@ main{
 }
 
 .header7{
+    padding: 0;
     padding: 40px 16px;
     display: flex;
     gap: 40px;
@@ -897,12 +906,21 @@ main{
 }
 
 .header8{
+    padding: 0;
+    padding: 24px;
     flex-direction: column;
     gap: 40px;
 }
 
+.main8{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
 .input{
-    width: 343px;
+    width: 100%;
 }
 
 .tab6{
@@ -943,7 +961,9 @@ main{
 }
 
 .foot{
-    padding: 20px 16px;
+    width: 100%;
+    padding: 15px 0;
+    justify-content: space-around;
 }
 
 .text22{
